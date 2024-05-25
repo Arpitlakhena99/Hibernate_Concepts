@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": "cdf2",
+      "empName": "DEV",
+      "empSalary": "800000",
+      "empCompany": "GOOGLE"
+    },
+    {
+      "id": "5750",
+      "empName": "ASHWIN",
+      "empSalary": "400000",
+      "empCompany": "HORIZON"
+    },
+    {
+      "id": "4652",
+      "empName": "DEEPAK",
+      "empSalary": "500000",
+      "empCompany": "TCS"
+    },
+    {
+      "id": "f449",
+      "empName": "Arpit Lakhena",
+      "empSalary": "15000",
+      "empCompany": "Infosys"
+    }
+  ]
+}

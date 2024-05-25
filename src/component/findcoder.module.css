@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    height: 3px;
+    border-bottom: 1px solid rgb(169, 162, 162);
+    display: flex;
+    justify-content: center;
+}
+#navbar>article{
+width: 95%;
+height: 100%;
+
+display: flex;
+}
+#navbar>article>#Logo{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 130px;
+    align-items: center;
+    text-decoration: none;
+}
+#logoblock{
+  
+    height: 100%;
+    width: 100%;
+    margin-left: 5px;
+    color: rgb(45,151,234);
+    display: flex;
+    align-items: center;
+}
+
+#logoblock>p{
+    margin-left: 7px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#logoblock>p:hover{
+    cursor: pointer;
+}
+
+#navbar>article>#Menu{
+    height: 100%;
+    width: 40%;
+    /* background-color: blue; */
+}
+#menublock{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    
+}
+#menublock>a{
+    font-size: 15px;
+    color: rgb(115 121 128);
+    margin: 0px 0px 0px 24px;
+    text-decoration: none;
+    font-weight: 900
+
+    
+}
+#navbar>article>#Btn{
+    height: 100%;
+    width: 30%;
+    justify-content: flex-end;
+    
+}
+#btnblock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#btn_wrapper{
+    width: 140px;
+    height: 30px;
+    background-color: rgb(23,124,226);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+
+}
+#btn_wrapper:hover{
+    z-index: 999;
+    cursor: pointer;
+}
+#svg{
+    height: 100%;
+  
+    color: white;
+    width: 20%;
+    padding-left: 5px;
+}
+#btn_btn{
+
+    text-decoration: none;
+    background:none;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#btn_btn:hover{
+    cursor: pointer;
+}
